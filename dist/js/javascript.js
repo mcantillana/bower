@@ -1,0 +1,1 @@
+var producto=function(n,r){return n+r},division=function(n,r){return n-r},Sumando=function(n,r){return n+r},restar=function(n,r){return n-r};
