@@ -1,0 +1,14 @@
+{
+  "name": "bower",
+  "authors": [
+    "Miguel Cantillana <mcantillana@opensur.org>"
+  ],
+  "description": "Demo para uso de bower",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
