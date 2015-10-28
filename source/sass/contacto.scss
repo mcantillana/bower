@@ -1,0 +1,32 @@
+.contacto_pp {
+	p {
+		font-size: 14px;
+		@include sexy-border(#CCC,0.2em);
+
+		border:1px solid #cCC;
+	}
+
+	.claseX {
+		@include large-text;
+
+		@include border-radius(9px);
+	}
+
+	.claseY {
+		 @include large-text;
+		 @include sexy-border(yellow,11px);
+	}
+
+}
+
+
+
+
+.sidebar {
+  width: 300px;
+  @media screen and (orientation: landscape) {
+    width: 500px;
+  }
+}
+
+/*comentario css */

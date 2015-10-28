@@ -1,0 +1,59 @@
+
+$width: 5em;
+$color_padre: #CCC;
+$color_fondo : olive;
+
+body {
+	background : $color_padre ;
+
+	font: {
+	  family: fantasy;
+	  size: 30em;
+	  weight: bold;
+	}
+
+}
+
+header {
+	background : $color_fondo;
+
+	h1 {
+		font-size:49px;
+		color : #FF0000;
+	}
+
+	ul {
+		list-style-type: none ;
+		li {
+			display: inline;
+			a {
+				color:$color_padre;
+
+
+				&:hover {
+					background: peru;
+				}
+
+			}
+
+		}
+	}
+}
+
+.home {
+	.claseX {
+		color: blue ;
+	}
+}
+$name: main2;
+$attr: font;
+ 
+p.#{$name} {
+  #{$attr}-color: $color_fondo;
+}
+
+p {
+  $font-size: 12px;
+  $line-height: 30px;
+  font: #{$font-size}/#{$line-height};
+}

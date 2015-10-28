@@ -1,0 +1,60 @@
+body {
+  background: #CCC;
+  font-family: fantasy;
+  font-size: 30em;
+  font-weight: bold; }
+
+header {
+  background: #EEE; }
+  header h1 {
+    font-size: 49px;
+    color: #FF0000; }
+  header ul {
+    list-style-type: none; }
+    header ul li {
+      display: inline; }
+      header ul li a {
+        color: #CCC; }
+        header ul li a:hover {
+          background: peru; }
+
+.home .claseX {
+  color: blue; }
+
+p.main2 {
+  font-color: #EEE; }
+
+p {
+  font: 12px/30px; }
+
+.contacto p {
+  font-size: 14px;
+  border-color: #CCC;
+  border-width: 0.2em;
+  border-style: dashed; }
+.contacto .claseX {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px; }
+.contacto .claseY {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  border-color: yellow;
+  border-width: 11px;
+  border-style: dashed; }
+
+.sidebar {
+  width: 300px; }
+  @media screen and (orientation: landscape) {
+    .sidebar {
+      width: 500px; } }
+
+/*comentario css */
+
+/*# sourceMappingURL=style.css.map */

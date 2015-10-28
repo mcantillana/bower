@@ -1,0 +1,24 @@
+@mixin large-text {
+  font: {
+    family: Arial;
+    size: 20px;
+    weight: bold;
+  }
+  color: #ff0000;
+}
+
+@mixin sexy-border($color, $width) {
+  border: {
+    color: $color;
+    width: $width;
+    style: dashed;
+  }
+}
+
+@mixin border-radius($width) {
+
+	-webkit-border-radius: $width;
+	-moz-border-radius: $width;
+	border-radius: $width;
+
+}
